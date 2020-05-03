@@ -1,0 +1,46 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  box-shadow: 1px 1px 1px 1px #636363;
+  padding: 10px;
+
+  & div {
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+}
+
+.container {
+  // width:1100px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.toys-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  .toys-container-card {
+    padding: 15px;
+    margin: 0 15px 0;
+    display: grid;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #adadad;
+  }
+
+  .btns {
+    display: flex;
+    border: none;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "toy": [
+    {
+      "_id": 1578691103543,
+      "name": "Mor",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_07893e6e-9c9b-4c6f-8bbd-ba027bea81ea?wid=488&hei=488&fmt=pjpeg",
+      "price": "120",
+      "type": "funny",
+      "createdAt": "1/10/2020",
+      "inStock": true
+    },
+    {
+      "_id": 1578691143,
+      "name": "Taql",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_07893e6e-9c9b-4c6f-8bbd-ba027bea81ea?wid=488&hei=488&fmt=pjpeg",
+      "price": "120",
+      "type": "funny",
+      "createdAt": "1/10/2020",
+      "inStock": true
+    }
+  ]
+}
