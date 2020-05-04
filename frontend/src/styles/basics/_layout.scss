@@ -24,13 +24,20 @@
 }
 
 .toys-container {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 0.3fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-around;
 
   .toys-container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 15px;
     margin: 0 15px 0;
-    display: grid;
+    /* display: grid; */
     border-radius: 10px;
     text-align: center;
     border: 1px solid #6e6e6e;

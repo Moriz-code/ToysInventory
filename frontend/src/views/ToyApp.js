@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { loadItems, deleteItem } from '../actions/toyActions'
 import ToyList from '../cmps/ToyList'
-import ToyFilter from '../cmps/ToyFilter';
+
 
 
 
